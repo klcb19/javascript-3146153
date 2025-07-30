@@ -1,0 +1,17 @@
+.cuadro{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+
+
+}
+.img{
+    width: 40%;
+    border-radius: 5%;
+    transform: rotate( 0.3s );
+}
+
+

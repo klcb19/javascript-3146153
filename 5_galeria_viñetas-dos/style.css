@@ -189,4 +189,29 @@
 .miniaturas img:hover {
   border: 3px solid #FFD700;
 }
-
+.sonido{
+    width: 5%;
+    position: absolute;
+    top: 1%;
+    left: 4%;
+    cursor: pointer;
+}
+.sonido2{
+    width: 5%;
+    position: absolute;
+    top: 1%;
+    left: 4%;
+    cursor: pointer;
+}
+.sonido3{
+    width: 5%;
+    position: absolute;
+    top: 1%;
+    left: 4%;
+    cursor: pointer;
+}
+.fondo{
+  width: 750px;
+  height: 500px;
+  object-fit: cover;
+}

@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section3{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+.imagen1{
+    width: 50%;
+    height: 64vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen1 img{
+    position: relative;
+    width: 70%;
+    height: 50vh;
+    border: 3px solid white;
+}
+.imagen1 p{
+    position: absolute;
+    color: white;
+    width: 32%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    top: 400px;
+}
+.boton1{
+    position: absolute;
+    width: 6.2%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    top: 440px;
+    left: 170px;
+}
+#boton{
+    width: 10%;
+    height: 5vh;
+    background-color: white;
+    color: black;
+}
+#boton:hover {
+  border: 3px solid #ffa703;
+}
+.miniaturas {
+  display: flex;
+  gap: 3rem;
+  width: 79%;
+  height: 5vh;
+  position: relative;
+  justify-content: center;
+}
+.miniaturas img {
+  width: 22%;
+  height: 25vh;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.miniaturas img:hover {
+  border: 2px solid rgb(250, 146, 27);
+}
+.cuadro{
+    width: 25%;
+}
+.cuadro img{
+    width: 100%;
+}
+.cuadro p{
+    width: 100%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.general{
+    width: 100%;
+    display: flex;
+}
+.general2{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.general2 p{
+    width: 60%;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.categoria{
+    width: 19%;
+    display: flex;
+    gap: 1rem;
+}
+.parra1{
+    width: 8%;
+    border: 1px solid white;
+}
+.Episodios1{
+    color: white;
+    width: 20%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton11{
+    display: flex;
+    position: absolute;
+    width: 90%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    top: 55px;
+    justify-content: end;
+}
+#boto2{
+    width: 30px;
+    height: 5vh;
+    background-color: white;
+    color: black;
+}
+#boto2:hover {
+  border: 3px solid #ffa703;
+}
+@media (max-width:760px){
+    
+.section3{
+    width: 100%;
+    height: 220vh;
+    background-color: black;
+}
+.imagen1{
+    width: 100%;
+    height: 64vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen1 img{
+    position: relative;
+    width: 75%;
+    height: 50vh;
+    border: 3px solid white;
+}
+.imagen1 p{
+    position: absolute;
+    color: white;
+    width: 42%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    top: 400px;
+    left: 120px;
+}
+.boton1{
+    position: absolute;
+    width: 6.2%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+    top: 440px;
+    left: 120px;
+}
+#boton{
+    width: 10%;
+    height: 5vh;
+    background-color: white;
+    color: black;
+}
+#boton:hover {
+  border: 3px solid #ffa703;
+}
+.miniaturas {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.miniaturas img {
+  width: 22%;
+  height: 25vh;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.miniaturas img:hover {
+  border: 2px solid rgb(250, 146, 27);
+}
+.cuadro{
+    width: 25%;
+}
+.cuadro img{
+    width: 100%;
+}
+.cuadro p{
+    width: 100%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.general{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.general2{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.general2 p{
+    width: 60%;
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.categoria{
+    position: relative;
+    width: 20%;
+    display: flex;
+    gap: 1rem;
+    left: -150px;
+}
+.parra1{
+   
+    border: 1px solid white;
+}
+.Episodios1{
+    color: white;
+    width: 45%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.boton11{
+    display: flex;
+    position: absolute;
+    width: 95%;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    top: 55px;
+    justify-content: end;
+}
+#boto2{
+    width: 30px;
+    height: 5vh;
+    background-color: white;
+    color: black;
+}
+#boto2:hover {
+  border: 3px solid #ffa703;
+}
+
+}

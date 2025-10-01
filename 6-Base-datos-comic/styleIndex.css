@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/fondo.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton{
+    width: 40%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Text-boton{
+    width: 100%;
+    height: 10vh;
+    background-color: #139600;
+    color: white;
+    font-size: 4vh;
+    font-family: Arial;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Text-boton:hover {
+  border: 3px solid #54c75a;
+}
+@media (max-width:760px){}
